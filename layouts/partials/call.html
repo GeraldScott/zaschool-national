@@ -1,12 +1,12 @@
 <div class="call">
   <div class="call-box-top">
-    {{ if .site.Data.contact.phone }}
-        <div class="call-phone"><strong>Phone: </strong> {{ .site.Data.contact.phone }} </div>
+    {{ if .site.Params.phone }}
+        <div class="call-phone"><strong>Phone: </strong> {{ .site.Params.Phone }} </div>
     {{ end }}
-    {{ if .site.Data.contact.email }}
+    {{ if .site.Params.email }}
     <div class="call-email"><strong>Email: </strong>
-      <a href="mailto:{{ .site.Data.contact.email }}">
-        {{ .site.Data.contact.email }}
+      <a href="mailto:{{ .site.Params.email }}">
+        {{ .site.Params.email }}
       </a>
     </div>
     {{ end }}

@@ -6,6 +6,7 @@
     <div class="logo-mobile">
       <a href="{{ .Site.BaseURL }}"><img height={{ .Site.Params.logo.mobile_height }} alt="{{ .Site.Params.logo.alt }}" src="{{ .Site.Params.logo.mobile | relURL }}" /></a>
     </div>
+    <a href="{{ .Site.BaseURL }}"><h2>{{ .Site.Title}}</h2></a>
     {{ partial "main-menu.html" . }}
     {{ partial "hamburger.html" . }}
   </div>

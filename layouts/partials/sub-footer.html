@@ -6,8 +6,8 @@
           {{ if .Site.Data.social }}
             {{ partial "social.html" . }}
           {{ end }}
-          {{ if .Site.Params.footer.copyright_text }}
-            <div class="copyright">{{ .Site.Params.footer.copyright_text | safeHTML }}</div>
+          {{ if .Site.Params.theme.theme_text }}
+            <div class="copyright">{{ .Site.Params.theme.theme_text | safeHTML }}&nbsp;&copy;&nbsp;{{ .Site.Copyright }}</div>
           {{ end }}
         </div>
       </div>
