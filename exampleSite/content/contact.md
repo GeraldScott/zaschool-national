@@ -10,4 +10,4 @@ Town: {{< schoolTown >}}
 
 Province: {{< schoolProvince >}}
 
-{{< googleMap >}}
+{{< googleMap height="300" >}}
