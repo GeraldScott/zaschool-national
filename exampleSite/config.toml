@@ -1,8 +1,10 @@
-baseURL = "https://example.com"
+baseURL = "https://GeraldScott.gitlab.io/zaschool-site/"
+title = "ZASchool Website"
+
+themesDir = "themes"
+theme = "zaschool-national"
+
 languageCode = "en-us"
-title = "Hugo Serif Theme"
-themesDir = "../.."
-theme = "hugo-serif-theme"
 
 [module]
   [module.hugoVersion]
