@@ -1,0 +1,26 @@
+# Main Menu
+[[main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[main]]
+    name = "Staff"
+    url = "/team/"
+    weight = 3
+
+[[main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 4
+
+# Footer Menu
+[[footer]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[footer]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 2

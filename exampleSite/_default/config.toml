@@ -1,0 +1,13 @@
+baseURL = "https://GeraldScott.gitlab.io/zaschool-site/"
+title = "ZASchool Website"
+copyright = "2022"
+
+themesDir = "themes"
+theme = "zaschool-national"
+
+languageCode = "en-us"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.55.0"
